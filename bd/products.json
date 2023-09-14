@@ -1,0 +1,75 @@
+[
+    {
+      "nombre": "Playstation 5",
+      "precio": "$299999",
+      "imagen": "../media/productos/productosPlay5.png",
+      "categoria": "Consolas"
+    },
+    {
+      "nombre": "Joystick DualSense Playstation 5",
+      "precio": "$49999",
+      "imagen": "../media/productos/joystickps5.jpg",
+      "categoria": "Accesorios"
+    },
+    {
+      "nombre": "Auriculares Sony Pulse 3D",
+      "precio": "$42999",
+      "imagen": "../media/productos/SonyPulse3D.jpg",
+      "categoria": "Accesorios"
+    },
+    {
+      "nombre": "Xbox Series S",
+      "precio": "$119999",
+      "imagen": "../media/productos/xboxseriess.jpg",
+      "categoria": "Consolas"
+    },
+    {
+      "nombre": "Xbox Series Controller Robot White",
+      "precio": "$24999",
+      "imagen": "../media/productos/xboxrobotwhite.jpg",
+      "categoria": "Accesorios"
+    },
+    {
+      "nombre": "Xbox Wireless Headset",
+      "precio": "$39999",
+      "imagen": "../media/productos/xboxwirelessheadset.jpg",
+      "categoria": "Accesorios"
+    },
+    {
+      "nombre": "Xbox Series X",
+      "precio": "$269999",
+      "imagen": "../media/productos/xboxseriesx.jpg",
+      "categoria": "Consolas"
+    },
+    {
+      "nombre": "Xbox Series Controller Black",
+      "precio": "$24999",
+      "imagen": "../media/productos/xboxseriesxcontroller.jpg",
+      "categoria": "Accesorios"
+    },
+    {
+      "nombre": "Playstation 5 HD Camera",
+      "precio": "$25599",
+      "imagen": "../media/productos/cameraplaystation5.jpg",
+      "categoria": "Accesorios"
+    },
+    {
+      "nombre": "FIFA 23 │ Playstation 5",
+      "precio": "$17999",
+      "imagen": "../media/productos/fifa23.png",
+      "categoria": "Juegos"
+    },
+    {
+      "nombre": "Halo Infinite │ Xbox Series X",
+      "precio": "$18999",
+      "imagen": "../media/productos/haloinfinite.jpg",
+      "categoria": "Juegos"
+    },
+    {
+      "nombre": "1 mes de Suscripción Xbox GamePass Ultimate",
+      "precio": "$899",
+      "imagen": "../media/productos/xboxgamepass.jpg",
+      "categoria": "Juegos"
+    }
+  ]
+  

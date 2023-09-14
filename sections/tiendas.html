@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nuestras tiendas.">
+  <meta name="keywords"
+    content="consolas, accesorios, videojuegos, play, play 5, playstation 5, xbox, xbox series, xbox series s, xbox series x, joystick, controller, auriculares, juegos, juego, fifa, fifa 23, halo, sony, microsoft" />
+  <meta name="author" content="Alan Bono" />
+  <meta name="copyright" content=".share" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  <link rel="stylesheet" href="../styles/estilos.css">
+  <link rel="icon" href="../media/favicon-1.ico">
+
+  <title>.share │ Tiendas</title>
+</head>
+
+<body>
+  <header>
+    <!-- comienza barra de navegacion -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+      <div class="container-fluid">
+        <a id="logo" href="../index.html"><img class="logo" src="../media/logoFondoNegro.png" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./tiendas.html">Tiendas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./preguntasfrecuentes.html">FAQs</a>
+            </li>
+            <li class="nav-item">
+              <a id="ver-carrito" class="nav-link active" aria-current="page" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling" href="./carrito.html">
+                <i class="fa fa-shopping-cart"></i>
+                <span id="carrito-contador" class="badge bg-secondary">0</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- termina barra de navegacion -->
+
+  </header>
+
+  <div class="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+  id="carritoOffcanvas" aria-labelledby="carritoOffcanvasLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="carritoOffcanvasLabel">Carrito de Compras</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <ul id="carrito-lista-offcanvas">
+    </ul>
+    <p id="total-carrito">Total: $0.00</p>
+    <div class="acciones button">
+      <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="offcanvas">.cerrar</button>
+      <button id="eliminar-todos" class="btn btn-dark btn-sm">.vaciar carrito</button>
+      <button id="finalizar-compra" type="button" class="btn btn-dark btn-sm">.finalizar la
+          compra</button></a>
+        </div>
+  </div>
+</div>
+
+  <div class="wp">
+    <a class="icono-wp" href="https://api.whatsapp.com/send?phone=987654321"> <i class="fa fa-whatsapp"></i></a>
+  </div>
+
+  <main data-aos="fade-up" id="mainTiendas">
+
+    <div id="tiendas">
+      <h1 class="titulo-tiendas">.tiendas</h1>
+    </div>
+
+    <section class="mapa">
+
+      <div class="nombre-tienda">
+        <div>
+          <img class="img-tienda" src="../media/tiendas/dotbaires.jpg" alt="dotbaires">
+          <h2 class="subtitulos-tiendas">.dot baires shopping</h2>
+          <div class="linea-tiendas">
+          </div>
+          <p class="mensaje-tienda">Vedia 3600, C1430 CABA</p>
+          <p class="mensaje-tienda">.lunes a viernes de 10 a 20 hs.</p>
+          <p class="mensaje-tienda">.sabados, domingos y feriados de 10 a 13 hs.</p>
+        </div>
+      </div>
+
+      <div class="maps">
+        <div class="google-maps">
+          <iframe class="dimension-mapas"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.286948748025!2d-58.49012518449485!3d-34.546289380474455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb6c049b27a89%3A0xb4aff81f5c83b76b!2sDot%20Baires%20Shopping!5e0!3m2!1ses-419!2sar!4v1665590946588!5m2!1ses-419!2sar"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="mapa">
+
+      <div class="maps">
+        <div class="google-maps">
+          <iframe class="dimension-mapas"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.656793156518!2d-58.411436684493964!3d-34.587549780463696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb0aea7fe0b3%3A0x4f8f6d162a153dda!2sAlto%20Palermo%20Shopping!5e0!3m2!1ses-419!2sar!4v1665591461572!5m2!1ses-419!2sar"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+
+      <div class="nombre-tienda">
+        <div class="store">
+          <img class="img-tienda" src="../media/tiendas/alto-palermo.jpg" alt="altopalermo">
+          <h2 class="subtitulos-tiendas">.alto palermo shopping</h2>
+          <div class="linea-tiendas">
+          </div>
+          <p class="mensaje-tienda">Beruti 3300, C1425 Buenos Aires</p>
+          <p class="mensaje-tienda">.lunes a viernes de 10 a 20 hs.</p>
+          <p class="mensaje-tienda">.sabados, domingos y feriados de 10 a 13 hs.</p>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="mapa">
+
+      <div class="nombre-tienda">
+        <div class="store">
+          <img class="img-tienda" src="../media/tiendas/unicenter.jpg" alt="unicenter">
+          <h2 class="subtitulos-tiendas">.unicenter</h2>
+          <div class="linea-tiendas">
+          </div>
+          <p class="mensaje-tienda">Paraná 3745, B1640 Martínez, Provincia de Buenos Aires</p>
+          <p class="mensaje-tienda">.lunes a viernes de 10 a 20 hs.</p>
+          <p class="mensaje-tienda">.sabados, domingos y feriados de 10 a 13 hs.</p>
+        </div>
+      </div>
+
+      <div class="maps">
+        <div class="google-maps">
+          <iframe class="dimension-mapas"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3287.774390416482!2d-58.52535808449562!3d-34.5086034804843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb0ee292497e9%3A0xf9a611e58747f528!2sUnicenter!5e0!3m2!1ses-419!2sar!4v1665591942656!5m2!1ses-419!2sar"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer id="piePrincipal">
+    <div class="logoNegro">
+      <a href="../index.html"><img class="logoFoot" src="../media/logoFondoNegro.png" alt="logo"></a>
+    </div>
+
+    <div class="social">
+      <a class="fa fa-twitter" href="https://twitter.com/home" target="_blank"></a>
+      <a class="fa fa-facebook" href="https://facebook.com" target="_blank"></a>
+      <a class="fa fa-instagram" href="https://instagram.com" target="_blank"></a>
+    </div>
+
+  </footer>
+
+  <footer id="pieSecundario">
+
+    <div class="segundoTexto">
+      <p class="derechos">Alan Bono - Todos los derechos reservados ©</p>
+    </div>
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="../js/carrito.js"></script>
+  <script src="../js/productos.js"></script>
+  <script src="../js/main.js"></script>
+
+</body>
+
+</html>
